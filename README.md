@@ -1,5 +1,5 @@
-Navicat Trial Reset Script for Linux
-This script resets the trial period of Navicat on Linux systems (specifically tested on Linux Mint) without deleting your saved database connections or user profiles.
+Navicat Trial Refresh Script for Linux
+This script refresh the trial period of Navicat on Linux systems (specifically tested on Linux Mint) without deleting your saved database connections or user profiles.
 
 ## Features
 - Resets trial data in dconf registry.
@@ -18,12 +18,12 @@ Profiles (Safe): Does not touch ~/.config/navicat/Premium/Profiles.
 
 ## How to Use
 
-1. Save the script as `navicat-reset.sh`.
+1. Save the script as `navicat-refresh.sh`.
 2. Open your terminal in the directory where the file is located.
 3. Grant execution permission:
 
 ```bash
-chmod +x navicat-reset.sh
+chmod +x navicat-refresh.sh
 
 ```bash
-./navicat-reset.sh
+./navicat-refresh.sh
