@@ -24,3 +24,6 @@ Profiles (Safe): Does not touch ~/.config/navicat/Premium/Profiles.
 
 ```bash
 chmod +x navicat-reset.sh
+
+```bash
+./navicat-reset.sh
